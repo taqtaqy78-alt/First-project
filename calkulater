@@ -1,0 +1,16 @@
+number = float(input("wher you namber :"))
+opr = input("what operation you want to do (+,- * /):")
+number2 = float(input("wher you namber :"))
+
+if opr == "+":
+    result = number + number2
+    print("the result is ", result)
+elif opr == "-":
+    result = number - number2
+    print("the result is " , result)
+elif opr == "*":
+    result = number * number2
+    print("the result is " , result)
+elif opr == "/":
+    result = number / number2
+    print("the result is " , result)
